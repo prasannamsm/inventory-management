@@ -188,6 +188,37 @@ export default {
     }
   },
 
+  // Reports
+  reports: {
+    title: '業績レポート',
+    description: '四半期業績指標と月次傾向を表示',
+    quarterly: {
+      title: '四半期業績',
+      quarter: '四半期',
+      totalOrders: '総注文数',
+      totalRevenue: '総収益',
+      avgOrderValue: '平均注文額',
+      fulfillmentRate: '履行率'
+    },
+    monthlyTrend: {
+      title: '月別収益傾向'
+    },
+    monthlyAnalysis: {
+      title: '前月比分析',
+      month: '月',
+      orders: '注文',
+      revenue: '収益',
+      change: '変化',
+      growthRate: '成長率'
+    },
+    summary: {
+      totalRevenue: '総収益（年初来）',
+      avgMonthly: '月平均収益',
+      totalOrders: '総注文数（年初来）',
+      bestQuarter: '最高業績四半期'
+    }
+  },
+
   // Filters
   filters: {
     timePeriod: '期間',
